@@ -1,0 +1,15 @@
+.font{
+    color: burlywood;
+    font-size:80px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+.button{
+    width: 150px;
+    background-color: burlywood;
+    margin-top: 20px;
+    margin-left:100px;
+}
+.button:hover{
+    background-color: white;
+    color: burlywood;
+}
