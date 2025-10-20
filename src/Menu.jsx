@@ -7,7 +7,7 @@ function Menu() {
   const { addToCart } = useContext(CartContext);
 
   useEffect(() => {
-    fetch("http://localhost:3001/menu")
+    fetch("/db.json")
       .then((res) => res.json())
       .then((data) => {
         if (data.categories) setMenuData(data.categories);
