@@ -6,14 +6,14 @@ function Menu() {
   const [menuData, setMenuData] = useState([]);
   const { addToCart } = useContext(CartContext);
 
-  useEffect(() => {
-    fetch("/db.json")
-      .then((res) => res.json())
-      .then((data) => {
-        if (data.categories) setMenuData(data.categories);
-      })
-      .catch((err) => console.log(err));
-  }, []);
+ useEffect(() => {
+  fetch(`${import.meta.env.BASE_URL}db.json`)
+    .then((res) => res.json())
+    .then((data) => {
+      setMenuData(data.menu.categories);
+    })
+    .catch((err) => console.log(err));
+}, []);
 
   return (
     <div className="container py-5">
