@@ -1,0 +1,147 @@
+{
+  "menu": {
+    "categories": [
+      {
+        "name": "Veg Pizzas",
+        "items": [
+          {
+            "id": 1,
+            "name": "Margherita Pizza",
+            "description": "Classic delight with 100% real mozzarella cheese and tomato sauce.",
+            "price": 199,
+            "image": "./public/margherita.webp",
+            "size": ["Small", "Medium", "Large"],
+            "spice_level": "Mild",
+            "rating": 4.5
+          },
+          {
+            "id": 2,
+            "name": "Farmhouse Pizza",
+            "description": "Loaded with onion, capsicum, tomato, and mushroom for a farm-fresh taste.",
+            "price": 299,
+            "image": "./public/farm.jpeg",
+            "size": ["Small", "Medium", "Large"],
+            "spice_level": "Medium",
+            "rating": 4.6
+          },
+          {
+            "id": 3,
+            "name": "Paneer Tikka Pizza",
+            "description": "Spicy paneer tikka cubes with onions and capsicum on a cheesy base.",
+            "price": 329,
+            "image": "./public/panner.jpeg",
+            "size": ["Small", "Medium", "Large"],
+            "spice_level": "Hot",
+            "rating": 4.7
+          }
+        ]
+      },
+      {
+        "name": "Non-Veg Pizzas",
+        "items": [
+          {
+            "id": 4,
+            "name": "Pepper Barbecue Chicken Pizza",
+            "description": "Barbecue chicken with a blend of mozzarella and spicy sauce.",
+            "price": 349,
+            "image": "./public/BBQ chicken.jpeg",
+            "size": ["Small", "Medium", "Large"],
+            "spice_level": "Medium",
+            "rating": 4.8
+          },
+          {
+            "id": 5,
+            "name": "Chicken Dominator",
+            "description": "Loaded with double chicken, pepperoni, and sausages for meat lovers.",
+            "price": 399,
+            "image": "./public/chicken_dominator.jpeg",
+            "size": ["Small", "Medium", "Large"],
+            "spice_level": "Hot",
+            "rating": 4.9
+          },
+          {
+            "id": 6,
+            "name": "Peri Peri Chicken Pizza",
+            "description": "Fiery peri peri sauce with tender chicken chunks and red paprika.",
+            "price": 369,
+            "image": "./public/chicken tikka.jpeg",
+            "size": ["Small", "Medium", "Large"],
+            "spice_level": "Extra Hot",
+            "rating": 4.7
+          }
+        ]
+      },
+      {
+        "name": "Sides",
+        "items": [
+          {
+            "id": 7,
+            "name": "Garlic Bread Sticks",
+            "description": "Soft bread sticks baked to perfection with garlic butter.",
+            "price": 129,
+            "image": "./public/garlic_bread.jpeg",
+            "rating": 4.4
+          },
+          {
+            "id": 8,
+            "name": "Cheesy Dip",
+            "description": "Smooth and creamy cheese dip to complement your pizza.",
+            "price": 49,
+            "image": "./public/cheesy_dip.jpeg",
+            "rating": 4.3
+          },
+          {
+            "id": 9,
+            "name": "Spicy Potato Wedges",
+            "description": "Crispy potato wedges with a spicy seasoning blend.",
+            "price": 99,
+            "image": "./public/spicy_potato.jpeg",
+            "rating": 4.5
+          }
+        ]
+      },
+      {
+        "name": "Drinks",
+        "items": [
+          {
+            "id": 10,
+            "name": "Coke",
+            "description": "Chilled and refreshing classic Coca-Cola.",
+            "price": 49,
+            "image": "./public/coke.jpeg",
+            "rating": 4.2
+          },
+          {
+            "id": 11,
+            "name": "Iced Lemon Tea",
+            "description": "Cool lemon-flavored tea for a refreshing sip.",
+            "price": 59,
+            "image": "./public/ice.jpeg",
+            "rating": 4.3
+          }
+        ]
+      },
+      {
+        "name": "Desserts",
+        "items": [
+          {
+            "id": 12,
+            "name": "Choco Lava Cake",
+            "description": "Warm chocolate cake with a molten center that oozes bliss.",
+            "price": 119,
+            "image": "./public/lava.jpeg",
+            "rating": 4.8
+          },
+          {
+            "id": 13,
+            "name": "Brownie Ice Cream",
+            "description": "Delicious chocolate brownie served with a scoop of vanilla ice cream.",
+            "price": 139,
+            "image": "./public/brownie.jpeg",
+            "rating": 4.7
+          }
+        ]
+      }
+    ]
+  }
+}
